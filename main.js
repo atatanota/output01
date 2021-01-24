@@ -24,24 +24,7 @@ myImage.onclick = function() {
     }
 }
 
-function setUserName() {
-  let myName = prompt('あなたの名前を入力してください。');
-  localStorage.setItem('name', myName);
-  myHeading.textContent = 'Mozilla はすばらしいよ、' + myName;
-}
 
-if(!localStorage.getItem('name')) {
-  setUserName();
-} else {
-  let storedName = localStorage.getItem('name');
-  myHeading.textContent = 'Mozilla はすばらしいよ、' + storedName;
-}
-
-document.querySelector('html').onclick = function() {
-    alert('痛っ! つつくのはやめて!');
-}
-
-document.querySelector('html').onclick = function() {};
 
 let myHTML = document.querySelector('html');
 myHTML.onclick = function() {};
