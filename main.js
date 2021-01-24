@@ -18,7 +18,7 @@ if(iceCream === 'チョコレート') {
 myImage.onclick = function() {
     let mySrc = myImage.getAttribute('src');
     if(mySrc === 'firefox.png') {
-      myImage.setAttribute ('src','blackpink.png');
+      myImage.setAttribute ('src','soccer.png');
     } else {
       myImage.setAttribute ('src','firefox.png');
     }
